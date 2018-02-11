@@ -4,7 +4,6 @@
     p スマホのフリック入力でPCに文字入力できるサービスです。
     ConnectionLink(v-if="shouldShowLink" :localId="localId")
     TextInput(v-else-if="shouldShowTextarea" :connection="dataConnection")
-
 </template>
 
 <script>
@@ -99,11 +98,11 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #555;
+  color: #2c3e50;
   margin-top: 30px;
 }
 </style>

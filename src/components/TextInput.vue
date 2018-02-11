@@ -3,8 +3,8 @@
     p 以下のテキストボックスに入力した内容が接続先へリアルタイムに反映されます。
     el-row
       el-col(
-        :xs="24"
-        :sm="{ span: 22, offset: 1 }"
+        :xs="{ span: 22, offset: 1 }"
+        :sm="{ span: 20, offset: 2 }"
         :md="{ span: 20, offset: 2 }"
         :lg="{ span: 18, offset: 3 }"
         :xl="{ span: 16, offset: 4 }"
@@ -48,8 +48,9 @@ export default {
 
 <style scoped>
 textarea {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
   width: 100%;
-  height: 300px;
+  height: 200px;
   resize: none;
 }
 </style>
